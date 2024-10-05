@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
 const Collection = () => {
+
+  const {products} = useContext{ShopContext};
+
   return (
-    <div>Collection</div>
+    <div className='flex flex-col '>
+
+    </div>
   )
 }
 
